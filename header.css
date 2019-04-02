@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.header {
+	height: 10vh;
+	display: flex;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header .logo {
+	flex-grow: 1;
+	width: auto;
+	margin-bottom: -6px;
+	box-sizing: border-box;
+}
+
+.header .align-right {
+	padding-left: 20px;
+	margin-top: 0.2rem;
+	font-size: 14.5px;
+	line-height: 27px;
+	height: 27px;
+}
+
+.header .start-new-group {
+	padding-right: 16px;
+	border-right: 1px solid #ddd;
+}
+
+.header .new-group {
+	color: #00a2c7;
+	font-weight: bold;
+}
+
+.header .log-member{
+	color: #aaa;
+}
+
+.log-member:hover,
+.log-member:active {
+	color: #00a2c7;
+}
+
