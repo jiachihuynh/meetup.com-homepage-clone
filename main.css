@@ -1,0 +1,307 @@
+.video-bgr {
+	width: 100%;
+	height: 460px;
+	position: relative;
+	top: -26px;
+}
+
+.video-bgr video {
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	display: inline-block;
+	overflow: hidden;
+	object-fit: fill;
+	opacity: 0.9;
+}
+
+.video-bgr .wrapper-text-video {
+	position: absolute;
+	height: 172px;
+	z-index: 1;
+	top: 144px;
+	left: 25%;
+}
+
+.video-bgr .slogan {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-weight: bold;
+	line-height: 1.45;
+	width: 100%;
+	text-align: center;
+}
+
+.video-bgr .button-join {
+	color: #fff;
+	display: inline-block;
+	padding: 12px 112px 12px 112px;
+	margin-top: 36px;
+	background-color: #f13a59;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: none;
+}
+
+.button-join:hover,
+.button-join:active {
+	background-color: red;
+}
+
+.tutorial-btn .list-button{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+li {
+	list-style-type: none;
+}
+
+.tutorial-btn {
+	margin-bottom: 20px;
+}
+
+.tutorial-btn .feature-btn {
+	color: #0b0b0b;
+	padding: 8px 16px 8px 16px;
+	background-color: #eee;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.45;
+}
+
+.feature-btn:hover,
+.feature-btn:active {
+	background-color: #ddd;
+}
+
+.tutorial-btn li {
+	padding-right: 20px;
+}
+
+hr {
+	color: #ddd;
+	background-color: #ddd;
+	border: none;
+	height: 0.75px;
+}
+
+.events-nearby {
+	width: 100%;
+	padding-top: 56px;
+}
+
+.events-nearby .events-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.events-text a {
+	font-weight: 600;
+	color: #00a2c7;
+	display: block;
+}
+
+.events-text a:hover {
+	text-decoration: underline;
+}
+
+.events-box a {
+	display: block;
+}
+
+.categories {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+	font-family: sans-serif;
+}
+
+.categories .text-categories {
+	margin-bottom: 20px;
+	font-size: 24px;
+	line-height: 1.1;
+	fill: #2e3e48;
+	stroke: transparent;
+}
+
+.categories .text-description {
+	padding-bottom: 20px;
+	opacity: 0.8;
+}
+
+.categories .list-categories {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.categories li {
+	list-style: none;
+}
+
+.categories .list-item {
+ 	padding-right: 16px;
+	padding-bottom: 16px;
+	
+ }
+
+.categories a {
+	display: inline-block;
+	color: #2e3e48;
+}
+
+.categories .bgr-image-item {
+	width: 259px;
+	height: 161px;
+	border-radius: 8px;
+}
+
+.categories img {
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 8px;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.categories h4 {
+	margin-top: 8px;
+}
+
+.how-work {
+	background-color: #0f1721;
+	margin-top: 100px;
+	height: 350px;
+}
+
+.bound-center {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.how-work h2 {
+	font-family: sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 60px;
+	font-size: 32px;
+	line-height: 1.1;
+}
+
+.how-work .wrapper-work {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.svg-image {
+	fill: #00a2c7;
+}
+
+.how-work .item-work {
+	display: flex;
+	flex-direction: row;
+	margin-right: 20px;
+}
+
+.how-work .infor-work {
+	padding-left: 20px;
+	color: #fff;
+}
+
+.how-work h3 {
+	line-height: 1.1;
+	font-size: 24px;
+}
+
+.how-work p {
+	line-height: 1.5;
+	font-size: 17px;
+	margin-bottom: 20px; 
+}
+
+.how-work .p-select {
+	margin-right: 30px;
+}
+
+.how-work a {
+	font-size: 16px;
+	display: block;
+	display: flex;
+	flex-direction: row;
+	color: #00a2c7;
+}
+
+.how-work span {
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.getApp {
+	height: 320px;
+}
+
+.getApp .flex-row {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 850px;
+	margin-top: 20px;
+	justify-content: space-around;
+}
+
+.getApp .wrapper-getApp {
+	margin-top: 50px;
+	margin-right: 300px;
+}
+
+.getApp h2 {
+	color: #2e3e48;
+	font-weight: 600;
+	line-height: 1.45;
+	font-size: 32px;
+}
+
+.getApp .learn-more-text {
+	font-size: 16px;
+	display: block;
+	display: flex;
+	flex-direction: row;
+	color: #00a2c7;
+}
+
+.getApp span {
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+.icon-getApp {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+}
+
+.getApp-ios {
+	margin-right: 20px;
+}
+
+.getApp-image img {
+	display: block;
+	height: 100%;
+}
